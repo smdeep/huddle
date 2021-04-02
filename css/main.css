@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: url("../../images/bg-mobile.svg") no-repeat center center/cover;
+  min-height: 100vh;
+  background-color: #674baf;
+}
+@media (min-width: 50em) {
+  body {
+    background: url("../../images/bg-desktop.svg") no-repeat center center/cover;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.illustration {
+  margin: 3rem auto;
+}
+
+.logo {
+  width: 35%;
+  height: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.main-header {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.para {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

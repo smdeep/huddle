@@ -1,0 +1,56 @@
+body {
+    font-family: $font-body;
+    font-weight: $font-weight-normal;
+
+    background: url("../../images/bg-mobile.svg") no-repeat center center/cover;
+
+    min-height: 100vh;
+
+    background-color: $clr-primary;
+
+
+
+    @media (min-width: 50em) {
+        background: url('../../images/bg-desktop.svg') no-repeat center center/cover;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.illustration {
+    margin: 3rem auto;
+}
+
+.logo {
+    // border: 1px solid red;
+    width: 35%;
+    height: auto;
+    margin-right: auto;
+
+    padding-top: 2rem;
+
+}
+
+.main-header {
+    font-family: $font-heading;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+}
+
+.para {
+    color: white;
+    font-family: $font-body;
+    font-weight: $font-weight-normal;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+
+}
