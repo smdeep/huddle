@@ -98,9 +98,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Sudeep Mukherjee](https://www.your-site.com)
-- Frontend Mentor - [@smdeep](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@smdeep](https://www.twitter.com/yourusername)
+- Website - [Sudeep Mukherjee](https://github.com/smdeep)
+- Frontend Mentor - [@smdeep](https://www.frontendmentor.io/profile/smdeep)
+- Twitter - [@smdeep](https://www.twitter.com/smdeep)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
