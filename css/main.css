@@ -72,6 +72,7 @@ body {
 }
 @media (min-width: 50em) {
   .display-flex {
+    border: 1px solid yellow;
     flex-direction: row;
   }
 }
@@ -81,7 +82,8 @@ body {
 }
 @media (min-width: 50em) {
   .illustration img {
-    width: 60%;
+    max-width: 100%;
+    flex: 1 1 60%;
   }
 }
 
@@ -105,8 +107,10 @@ body {
 }
 @media (min-width: 50em) {
   .main-header {
-    flex-basis: 30%;
+    font-size: 2rem;
+    flex-basis: 20%;
     text-align: left;
+    width: 20ch;
   }
 }
 
@@ -122,9 +126,32 @@ body {
 }
 @media (min-width: 50em) {
   .para {
-    flex-basis: 30%;
+    font-size: 1rem;
+    flex-basis: 20%;
     text-align: left;
     padding: 0;
+    width: 53ch;
+  }
+}
+
+main a {
+  display: block;
+  text-decoration: none;
+  color: #674baf;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 50%;
+}
+@media (min-width: 50em) {
+  main a {
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
   }
 }
 
